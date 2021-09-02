@@ -66,8 +66,6 @@ a:hover {
   transform: rotateY(180deg);
 }
 .mountain {
-  min-width: 480px;
-  width: 33%;
   max-width: 100%;
 }
 
