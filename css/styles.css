@@ -68,6 +68,7 @@ a:hover {
 .mountain {
   min-width: 480px;
   width: 33%;
+  max-width: 100%;
 }
 
 /* INTRODUCTION */
@@ -175,6 +176,7 @@ a:hover {
   .intro {
     width: 70%;
   }
+
   .goals-text {
     font-size: 2rem;
     line-height: 2.5rem;
