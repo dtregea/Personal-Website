@@ -32,82 +32,138 @@
         I am currrently a student at Rochester Institute of Technology, and I am
         majoring in Computer Science.
       </p>
+    </div>
 
-      <hr />
+    <hr />
+    <!-- GOALS / INTERESTS CAROUSEL -->
 
-      <!-- GOALS / INTERESTS CAROUSEL -->
-      <!-- data-bs-ride="false" -->
-      <div id="goals-carousel" class="carousel slide">
-        <div class="carousel-inner">
-          <div class="carousel-item active container-fluid">
-            <h2 class="goals-text">
-              I am currently seeking cooperative education position in the
-              design, development, and testing of computing systems and software
-              products!
-            </h2>
-            <img
-              class="computer-gif goals-media"
-              src="https://media.giphy.com/media/juua9i2c2fA0AIp2iq/giphy.gif"
-              alt="coding"
-            />
-          </div>
-          <div class="carousel-item container-fluid">
-            <h2 class="goals-text">
-              Something I am currently interested in learning about is the
-              development of software applications
-            </h2>
-            <img
-              class="computer-img goals-media"
-              src="images/computer.png"
-              alt="computer"
-            />
-            <em class="goals-sub-text"
-              >I also want to learn more about programming different
-              microcontrollers when I have the time!</em
-            >
-          </div>
-          <div class="carousel-item container-fluid">
-            <h2 class="goals-text">
-              I am most experienced coding in Java and Python.
-            </h2>
-            <img
-              class="python-gif goals-media"
-              src="https://media.giphy.com/media/UtEd87cLAH789bR5sk/giphy.gif"
-              alt="python"
-            />
-            <em class="goals-sub-text"
-              >(And some HTML, CSS, and more on the side)</em
-            >
+    <div id="goals-carousel" class="carousel slide" data-bs-ride="false">
+      <div class="carousel-inner">
+        <div class="carousel-item container-fluid" data-bs-interval="8000">
+          <h2 class="goals-text">
+            I am currently seeking cooperative education position in the design,
+            development, and testing of computing systems and software products!
+          </h2>
+          <img
+            class="computer-img goals-media"
+            src="images/computer.png"
+            alt="computer"
+          />
+        </div>
+
+        <div
+          class="carousel-item active container-fluid"
+          data-bs-interval="8000"
+        >
+          <h2 class="goals-text">
+            Something I am currently learning about is the development of
+            website applications.
+          </h2>
+
+          <img
+            class="computer-gif goals-media"
+            src="https://media.giphy.com/media/juua9i2c2fA0AIp2iq/giphy.gif"
+            alt="coding"
+          />
+          <em class="goals-sub-text"
+            >I also want to learn more about programming different
+            microcontrollers when I have the time!</em
+          >
+        </div>
+
+        <div class="carousel-item container-fluid" data-bs-interval="8000">
+          <h2 class="goals-text">
+            I am most experienced coding in Java and Python.
+          </h2>
+          <img
+            class="python-gif goals-media"
+            src="https://media.giphy.com/media/UtEd87cLAH789bR5sk/giphy.gif"
+            alt="python"
+          />
+          <em class="goals-sub-text"
+            >(And some HTML, CSS, and more on the side...)</em
+          >
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#goals-carousel"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-arrow"><</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#goals-carousel"
+        data-bs-slide="next"
+      >
+        <span class="carousel-arrow">></span>
+      </button>
+    </div>
+
+    <!-- ACTIVE PROJECTS -->
+    <hr />
+    <div class="projects-section">
+      <div class="container-fluid">
+        <!-- TOP WHAT IM DOING ROW -->
+        <div class="row">
+          <div class="col-lg-12 project-col">
+            <h3 class="project-header">What i'm up to</h3>
+            <p class="project-text">
+              I am currently participating in two team projects (both web
+              applications!) and taking classes.
+            </p>
           </div>
         </div>
-        <button
-          class="carousel-control-prev"
-          type="button"
-          data-bs-target="#goals-carousel"
-          data-bs-slide="prev"
-        >
-          <span class="carousel-arrow"><</span>
-        </button>
-        <button
-          class="carousel-control-next"
-          type="button"
-          data-bs-target="#goals-carousel"
-          data-bs-slide="next"
-        >
-          <span class="carousel-arrow">></span>
-        </button>
+        <!-- BOTTOM PROJECT AND SCHOOL DETAILS ROW -->
+        <div class="row">
+          <div class="col-lg-4 col-md-6 project-col">
+            <h3 class="project-title">Creating a Music Streaming Simulation</h3>
+            <p class="project-text">
+              The goal of this team project is to design and create a database
+              of music and users to simulate a music streaming service.
+            </p>
+            <em class="project-sub-text"
+              >Implementation tools: Python, Flask, Javascript, React</em
+            >
+            <br />
+            <em class="project-sub-text"
+              >Stage of the project: Designing the database model</em
+            >
+          </div>
+          <div class="col-lg-4 col-md-6 project-col">
+            <h3 class="project-title">Developing a Web Checkers Game</h3>
+            <p class="project-text">
+              A checkers game which will allow two signed in users to play
+              against each other.
+            </p>
+            <em class="project-sub-text">Implementation tools: Java, Spark</em>
+            <br />
+            <em class="project-sub-text"
+              >Stage of the project: Designing Domain Model</em
+            >
+          </div>
+          <div class="col-lg-4 col-md-12 project-col">
+            <h3 class="project-title">Taking Some Classes</h3>
+            <p class="project-text">Some i'm taking right now:</p>
+            <ul class="class-list project-sub-text">
+              <li>Intro to Software engineering</li>
+              <li>Principles of Database Management</li>
+              <li>Mechanics of Progamming</li>
+            </ul>
+          </div>
+        </div>
       </div>
-
       <hr />
-      <!-- TODO add margin to bottom of computer.png -->
-      <!-- add col lg 12 row what im up to or projects? -->
-      <!-- ADD MOBILE STRUCTURE just the mountain? -->
       <div class="contact-me">
         <h2>Get In Touch</h2>
         <h3>Talk to me about anything!</h3>
       </div>
     </div>
 
+    <!-- BOTTOM CONNECT TO ME ROW -->
     <div class="bottom-container">
       <a class="footer-link" href="https://www.linkedin.com/in/danieltregea"
         >LinkedIn</a

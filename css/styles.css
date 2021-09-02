@@ -26,8 +26,7 @@ p {
   line-height: 2;
 }
 hr {
-  border: none;
-  width: 10%;
+  width: 25%;
   margin: 50px auto;
 }
 a {
@@ -54,13 +53,16 @@ a:hover {
   line-height: 2;
 }
 
+.top-cloud,
+.bottom-cloud {
+  position: absolute;
+}
 .top-cloud {
   top: 40px;
   right: 23vw;
-  position: absolute;
 }
+
 .bottom-cloud {
-  position: absolute;
   left: 13vw;
   bottom: 230px;
   transform: rotateY(180deg);
@@ -89,11 +91,11 @@ a:hover {
   min-height: 550px;
 }
 .carousel-arrow {
-  color: #108c91;
   font-size: 2.2rem;
   font-weight: 900;
 }
 
+.carousel-arrow,
 .carousel-control-prev:hover,
 .carousel-control-prev:focus,
 .carousel-control-next:hover,
@@ -125,6 +127,32 @@ a:hover {
 }
 .python-gif {
   width: 25%;
+}
+
+/* ACTIVE PROJECTS */
+.project-header {
+  font-size: 2rem;
+}
+
+.project-title {
+  font-size: 1.8rem;
+}
+
+.project-col {
+  padding: 5%;
+}
+
+.project-text {
+  margin: auto;
+  display: block;
+  font-size: 1.2rem;
+}
+.project-sub-text {
+  font-size: 1.1rem;
+}
+.class-list {
+  text-align: center;
+  list-style-position: inside;
 }
 
 /* Contact  */
