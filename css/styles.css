@@ -19,7 +19,9 @@ h2 {
   padding-bottom: 10px;
 }
 
-h3 {
+h3,
+hr,
+a {
   color: #11999e;
 }
 p {
@@ -29,14 +31,12 @@ p {
 }
 hr {
   border: none;
-  color: #11999e;
   width: 10%;
   margin: 50px auto;
 }
 a {
   text-decoration: none;
   margin: 10px 20px;
-  color: #11999e;
   font-weight: bold;
 }
 a:visited {
@@ -45,6 +45,7 @@ a:visited {
 a:hover {
   color: #eaf6f6;
 }
+/* Top */
 .top-container {
   position: relative;
   background: linear-gradient(to top, whitesmoke, #a0ffee);
@@ -61,30 +62,29 @@ a:hover {
   bottom: 300px;
   transform: rotateY(180deg);
 }
+
+/* INTRODUCTION */
+
 .middle-container {
   margin: 100px auto;
+}
+.profile-picture {
+  border-radius: 100%;
 }
 .intro {
   width: 30%;
   margin: auto;
 }
-.goals-row,
-.skills-row {
-  width: 50%;
-  margin: 50px auto;
-  text-align: left;
-}
-.goals-img {
-  width: 10%;
-  border-radius: 100%;
-  margin: 20px;
-}
+
+/* CAROUSEL */
+
 .carousel {
-  min-height: 410px;
+  min-height: 550px;
 }
 .carousel-arrow {
   color: #108c91;
-  font-size: 2rem;
+  font-size: 2.2rem;
+  font-weight: 900;
 }
 
 .carousel-control-prev:hover,
@@ -94,6 +94,11 @@ a:hover {
   color: #108c91;
 }
 
+/* GOALS */
+
+.computer-gif {
+  width: 20%;
+}
 .goals-text {
   font-size: 2rem;
   line-height: 3rem;
@@ -107,16 +112,14 @@ a:hover {
   width: 60%;
 }
 .computer-img {
-  width: 20%;
-  float: left;
-  margin-right: 30px;
+  width: 18%;
   border-radius: 100%;
 }
 .python-gif {
   width: 25%;
-  float: right;
-  margin-left: 10px;
 }
+
+/* Contact  */
 
 .contact-me {
   width: 40%;

@@ -16,30 +16,28 @@
   </head>
 
   <body>
+    <!-- INTRO -->
     <div class="top-container">
-      <img class="top-cloud" src="images/cloud.png" alt="" />
+      <img class="top-cloud" src="images/cloud.png" alt="cloud" />
       <h1>I'm Daniel</h1>
-      <img class="bottom-cloud" src="images/cloud.png" alt="" />
-      <img src="images/mountain.png" alt="" />
+      <img class="bottom-cloud" src="images/cloud.png" alt="cloud" />
+      <img src="images/mountain.png" alt="mountain" />
     </div>
 
+    <!-- ABOUT ME -->
     <div class="middle-container">
-      <div class="profile">
-        <img
-          src="images/IMG_1681.JPG"
-          alt="image"
-          style="border-radius: 100%"
-        />
-        <h2>About me</h2>
-        <p class="intro">
-          I am currrently a student at Rochester Institute of Technology, and I
-          am majoring in Computer Science.
-        </p>
-      </div>
+      <img src="images/IMG_1681.JPG" alt="profile" class="profile-picture" />
+      <h2>About me</h2>
+      <p class="intro">
+        I am currrently a student at Rochester Institute of Technology, and I am
+        majoring in Computer Science.
+      </p>
 
       <hr />
 
-      <div id="goals-carousel" class="carousel slide" data-bs-ride="false">
+      <!-- GOALS / INTERESTS CAROUSEL -->
+      <!-- data-bs-ride="false" -->
+      <div id="goals-carousel" class="carousel slide">
         <div class="carousel-inner">
           <div class="carousel-item active container-fluid">
             <h2 class="goals-text">
@@ -48,7 +46,7 @@
               products!
             </h2>
             <img
-              class="goals-img"
+              class="computer-gif"
               src="https://media.giphy.com/media/juua9i2c2fA0AIp2iq/giphy.gif"
               alt="coding"
             />
@@ -56,12 +54,16 @@
           <div class="carousel-item container-fluid">
             <h2 class="goals-text">
               Something I am currently interested in learning about is the
-              developement of software applications
+              development of software applications
             </h2>
-            <img class="goals-img" src="images/computer.png" alt="computer" />
+            <img
+              class="computer-img"
+              src="images/computer.png"
+              alt="computer"
+            />
             <em class="goals-sub-text"
-              >I want to learn more about programming different microcontrollers
-              when I have the time!</em
+              >I also want to learn more about programming different
+              microcontrollers when I have the time!</em
             >
           </div>
           <div class="carousel-item container-fluid">
@@ -69,11 +71,13 @@
               I am most experienced coding in Java and Python.
             </h2>
             <img
-              class="goals-img"
+              class="python-gif"
               src="https://media.giphy.com/media/UtEd87cLAH789bR5sk/giphy.gif"
               alt="python"
             />
-            <em class="goals-sub-text">(And some HTML and CSS on the side)</em>
+            <em class="goals-sub-text"
+              >(And some HTML, CSS, and more on the side)</em
+            >
           </div>
         </div>
         <button
