@@ -56,13 +56,13 @@ a:hover {
 
 .top-cloud {
   top: 40px;
-  right: 30vw;
+  right: 23vw;
   position: absolute;
 }
 .bottom-cloud {
   position: absolute;
   left: 13vw;
-  bottom: 280px;
+  bottom: 230px;
   transform: rotateY(180deg);
 }
 .mountain {
