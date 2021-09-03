@@ -140,10 +140,12 @@ a:hover {
 
 .project-col {
   padding: 5%;
+  line-height: 2rem;
 }
 
 .project-text {
   margin: auto;
+  margin-bottom: 20px;
   display: block;
   font-size: 1.2rem;
 }
