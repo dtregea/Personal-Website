@@ -37,7 +37,7 @@ const projectsJSON = {
   },
   "word-data": {
     title: "Word Data Plotter",
-    body: "This academic project parses through word data usage throughout the centuries to generate statistics on word count, frequency, length, and letter frequency. Results are then plotted onto a graph using Matplotlib<br/><br/>Through generated plots, we can see interesting phenomenon in word data such as how average word length decreases as the internet becomes more widespread, and the occurrence of <a class='link' target='blank' href='https://en.wikipedia.org/wiki/Zipf%27s_law'/>Zipf's law<a/> in letter frequency.",
+    body: "This academic project parses through word data usage throughout the centuries to generate statistics on word count, frequency, length, and letter frequency. Results are then plotted onto a graph using Matplotlib<br/><br/>Through generated plots, we can see interesting phenomenon in word data such as how average word length decreases as the internet becomes more widespread, and the occurrence of <a class='link' target='blank' href='https://en.wikipedia.org/wiki/Zipf%27s_law'/>Zipf's law<a/> in word frequency.",
     tools: "Python, Matplotlib",
     url: "",
   },
