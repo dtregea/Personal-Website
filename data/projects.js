@@ -1,7 +1,7 @@
 const projectsJSON = {
   "car-jam": {
     title: "Car-Jam",
-    body: "An academic project puzzle game which involves sliding cars on a grid to get your car to the opposite side. The more famously known sliding block puzzle, but with cars!<br/><br/>  This game strictly adheres to Model-ViewController architecture and comes with a Breadth-First-Search algorithm solver to provide hints to the user on the next correct move to the final solution.",
+    body: "An academic project puzzle game which involves sliding cars on a grid to get your car to the opposite side. The more famously known sliding block puzzle, but with cars!<br/><br/>  This game strictly adheres to Model-View Controller architecture and comes with a Breadth-First-Search algorithm solver to provide hints to the user on the next correct move to the final solution.",
     tools: "Java, JavaFX",
     url: "",
   },
