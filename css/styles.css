@@ -32,29 +32,39 @@ h1 {
   font-size: 4em;
 }
 
+canvas {
+  display: block;
+  vertical-align: bottom;
+}
+
+/* ---- particles.js container ---- */
+
+#particles-js {
+  width: 100%;
+  height: 100vh;
+  background-image: url("");
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+}
+
 .white {
   color: white;
 }
-
-.banner,
-.footer {
-  /* background-color: #1034cc; */
-  /* background-color: #101ccc; */
-  background-color: #1f2cdd;
+.banner {
+  position: absolute;
+  top: 40%;
+  right: 0;
+  left: 0;
+  margin: 0 auto;
+  max-width: fit-content;
 }
 
-@media (max-width: 769px) {
-  .banner {
-    padding-bottom: 9rem;
-    padding-top: 9rem;
-  }
-}
-
-@media (min-width: 769px) {
-  .banner {
-    padding-bottom: 18rem;
-    padding-top: 18rem;
-  }
+.footer,
+#particles-js {
+  /* background-color: #1f2cdd; */
+  /* background-color: #0c19cf; */
+  background-color: #000ece;
 }
 
 iframe {
@@ -112,6 +122,12 @@ iframe {
   line-height: 1.5;
 }
 
+@media (max-width: 769px) {
+  .bio-text {
+    max-width: 85%;
+  }
+}
+
 @keyframes slideInAnimation {
   0% {
     opacity: 0;
@@ -131,19 +147,25 @@ iframe {
   margin-bottom: 20px;
 }
 
+.row {
+  padding: 0 5% 0;
+}
+
 .project {
   margin: 8px auto;
   padding: 20px 0 20px;
   transition: transform 0.3s, box-shadow 0.3s;
   border-radius: 5%;
+  cursor: pointer;
+  max-width: 450px;
 }
+
 .project:hover {
   transform: scale(0.9);
 }
 
 @media (max-width: 769px) {
   .project {
-    /* box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.1); */
     box-shadow: 0 0 3px rgba(0, 0, 0, 0.25);
     border-radius: 5%;
   }
