@@ -1,6 +1,5 @@
 import projectsJSON from "./data/projects.js";
 
-particlesJS.load("particles-js", "./data/particles.json");
 // Fade in elements as they come into view
 const fadeInScrollElements = document.getElementsByClassName("fade-on-scroll");
 window.addEventListener("scroll", fadeIn);
@@ -36,3 +35,4 @@ for (let i = 0; i < projects.length; i++) {
     }`;
   });
 }
+console.log("If you like what you see, send me a message!");
