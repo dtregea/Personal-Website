@@ -12,7 +12,7 @@ const projectsJSON = {
     url: "",
   },
   "web-checkers": {
-    title: "Car-Jam",
+    title: "Web Checkers",
     body: "A project carried out by a group of 4 to implement a Checkers web application, using the Java Spark framework.<br/>This project consists of the base checkers game between two signed in players, resignation, game replays, and an AI opponent mode. <br/><br/>My Role: Model design, Unit-testing, Back-end and Front-end feature development.",
     tools: "Java, Spark, Maven, Git",
     url: "",
@@ -21,7 +21,7 @@ const projectsJSON = {
     title: "File Encoder-Decoder",
     body: "A tool which encodes the binary data of a file, and in the process, reduces the total size of it. It can decode encoded files back to its original state.<br/><br/> The program uses the Huffman Encoding compression algorithm to represent the most frequently occuring characters in the binary data with <8 bits, resulting in compression of the output file.",
     tools: "C, Valgrind, GDB",
-    url: "",
+    url: "https://www.youtube.com/embed/Vv2Mpc9F0hQ",
   },
   "room-chat": {
     title: "Room Chat",
