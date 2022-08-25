@@ -6,8 +6,8 @@ const projectsJSON = {
     url: "",
   },
   pettr: {
-    title: "Pettr",
-    body: "A twitter-like social media app which incorporates data obtained from the Petfinder API to let users view, post, and repost animals up for adoption or followed-users posts.<br/><br/> The backend consists of a Node-Express RESTful API as an interface for users on the React frontend to view and create data.<br/><br/> This project also includes secure user authentication with access and refresh tokens which cannot be accessed through browser-javascript, preventing Cross-Site-Scripting.",
+    title: "MyPettr",
+    body: "A twitter-like social media app which incorporates data obtained from the Petfinder API to let users view, post, and repost animals up for adoption or followed-users posts.<br/><br/> The backend consists of a Node-Express RESTful API as an interface for users on the React frontend to view and create data.<br/><br/> This project also includes secure user authentication with access and refresh tokens which cannot be accessed through browser-javascript to reduce the risk of Cross-Site-Scripting.<br/><br/>Try it out at <a target=\"_blank\" class=\"link\" href=\"https://www.mypettr.com\">MyPettr.com</a>",
     tools: "Node, Express, React, MongoDB, Git",
     url: "",
   },
